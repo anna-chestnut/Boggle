@@ -1,0 +1,5 @@
+﻿  boggle.cpp
+C:\Users\u1377592\source\repos\Boggle\BoggleTest\BoggleTest\boggle.cpp(91,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\u1377592\source\repos\Boggle\BoggleTest\BoggleTest\boggle.cpp(102,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\u1377592\source\repos\Boggle\BoggleTest\BoggleTest\boggle.cpp(103,31): warning C4018: '<': signed/unsigned mismatch
+  BoggleTest.vcxproj -> C:\Users\u1377592\source\repos\Boggle\BoggleTest\Debug\BoggleTest.exe
