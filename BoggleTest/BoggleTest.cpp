@@ -30,7 +30,7 @@ void boggle_driver()
 	// First board to solve; the example from instructions document.
 	const std::vector<std::string> result = my_boggle.solve_board(3, 3, std::string("yoxrbaved"));
 
-	std::cout << "Result:\n " << std::endl;
+	std::cout << "\nResult:\n " << std::endl;
 
 	for (auto v : result) {
 		std::cout << v << ", " << std::endl;
@@ -52,6 +52,31 @@ void boggle_driver()
 	}
 
 	// More boards to solve here... ?
+
+}
+
+void boggle_driver2()
+{
+	c_boggle my_boggle;
+	
+	// Setup the dictionary.
+	const std::vector<std::string> g_dictionary = {
+		// These words SHOULD be in the solution to the example board:
+		"abc", "abd", "dbf", "efc", "beda", "ceabd",
+
+		// These words should NOT be in the solution to the example board:
+		"abcd", "ebaa", "dac", "fad",
+	};
+	my_boggle.set_legal_words(g_dictionary);
+
+	// First board to solve; the example from instructions document.
+	const std::vector<std::string> result = my_boggle.solve_board(1, 1, std::string("a"));
+
+	std::cout << "Result:\n " << std::endl;
+
+	for (auto v : result) {
+		std::cout << v << ", " << std::endl;
+	}
 }
 
 int main()

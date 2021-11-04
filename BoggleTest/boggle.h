@@ -32,7 +32,7 @@ public:
 	/// Prior to solving any board, configure the legal words.
 	void set_legal_words(const std::vector<std::string>&);		// alphabetically-sorted array of legal words
 
-	void dfs(unsigned int, unsigned int, TrieNode*, std::vector<std::vector<char>>&, std::vector<std::string>&);
+	void dfs(int, int, TrieNode*, std::vector<std::vector<char>>&, std::vector<std::string>&);
 
 	/// Find all words on the specified board, returning a list of them.
 	std::vector<std::string> solve_board(
