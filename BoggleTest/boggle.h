@@ -1,6 +1,3 @@
-// Engineering Coding Test Boggle Stub.
-// Copyright Bungie Inc. 2020.
-
 #ifndef __BOGGLE_H__
 #define __BOGGLE_H__
 #pragma once
