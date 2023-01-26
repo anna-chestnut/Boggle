@@ -1,5 +1,3 @@
-// Engineering Coding Test Example Driver.
-// Copyright Bungie Inc. 2021.
 
 // ---------- includes
 
